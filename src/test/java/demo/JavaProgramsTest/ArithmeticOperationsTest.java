@@ -29,6 +29,7 @@ public static double add(double num1, double num2) {
 }
 
 public static double sub(double num1, double num2) {
+	System.out.println(num1);
     return num1 - num2;
 }
 
