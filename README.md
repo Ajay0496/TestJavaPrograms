@@ -50,7 +50,7 @@ This project implements a BDD-style API testing framework using REST Assured, Te
 
 ## Project Structure
 
-```plaintext
+
 RestAssuredAPITestingBDD/
 ├── src/
 │   ├── main/java/
