@@ -108,7 +108,7 @@ RestAssuredAPITestingBDD/
     ├── Restassuredapitest.xml
     └── Restassuredapitest2.xml
 
-Key Components Explanation
+### Key Components Explanation
 1. POJO Classes (pojos/)
 Booking.java: Data model for booking information
 BookingDates.java: Data model for booking dates
@@ -127,39 +127,39 @@ Test data files in various formats (CSV, Excel, JSON)
 Request body templates
 Configuration files
 
-How to Run the Project
+### How to Run the Project
 Prerequisites
 Java 8 or higher
 Maven
 IDE (Eclipse/IntelliJ)
 TestNG Plugin
 
-Running Tests
+### Running Tests
 Clone the Repository
 git clone <repository-url>
 cd RestAssuredAPITestingBDD
 
-Install Dependencies
+### Install Dependencies
 mvn clean install
 
-Run All Tests
+### Run All Tests
 mvn test
 
-Run Specific Test Suites
+### Run Specific Test Suites
 mvn test -DsuiteXmlFile=suites/Restassuredapitest.xml
 mvn test -DsuiteXmlFile=suites/PostAPIRequestUsingPojo.xml
 
-Running Data-Driven Tests
+### Running Data-Driven Tests
 mvn test -DsuiteXmlFile=suites/Datadriventestingusingcsv.xml
 mvn test -DsuiteXmlFile=suites/Datadriventestingusingexcel.xml
 mvn test -DsuiteXmlFile=suites/Datadriventestingusingjson.xml
 
-Reporting
+### Reporting
 Allure Reports
 Extent Reports
 TestNG Reports
 
-Best Practices Implemented
+### Best Practices Implemented
 BDD approach for test writing
 Data-driven testing
 Modular framework design
@@ -168,8 +168,8 @@ Comprehensive logging
 Detailed reporting
 Reusable components
 
-Contributing
+### Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests.
 
-License
+### icense
 This project is licensed under the MIT License - see the LICENSE.md file for details
