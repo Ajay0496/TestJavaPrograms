@@ -112,49 +112,44 @@ Key Components Explanation
 1. POJO Classes (pojos/)
 Booking.java: Data model for booking information
 BookingDates.java: Data model for booking dates
+
 2. Test Classes (tests/)
 Various test classes implementing different testing approaches
 Includes authentication, data-driven, and end-to-end tests
+
 3. Utility Classes (utils/)
 BaseTest.java: Common test setup and teardown
 ExtentReportManager.java: Reporting configuration
 RestAPIHelper.java: Helper methods for API operations
+
 4. Resources
 Test data files in various formats (CSV, Excel, JSON)
 Request body templates
 Configuration files
+
 How to Run the Project
 Prerequisites
 Java 8 or higher
 Maven
 IDE (Eclipse/IntelliJ)
 TestNG Plugin
+
 Running Tests
 Clone the Repository
-
-bash
-
 git clone <repository-url>
 cd RestAssuredAPITestingBDD
+
 Install Dependencies
-
-bash
-
 mvn clean install
+
 Run All Tests
-
-bash
-
 mvn test
+
 Run Specific Test Suites
-
-bash
-
 mvn test -DsuiteXmlFile=suites/Restassuredapitest.xml
 mvn test -DsuiteXmlFile=suites/PostAPIRequestUsingPojo.xml
-Running Data-Driven Tests
-bash
 
+Running Data-Driven Tests
 mvn test -DsuiteXmlFile=suites/Datadriventestingusingcsv.xml
 mvn test -DsuiteXmlFile=suites/Datadriventestingusingexcel.xml
 mvn test -DsuiteXmlFile=suites/Datadriventestingusingjson.xml
@@ -163,6 +158,7 @@ Reporting
 Allure Reports
 Extent Reports
 TestNG Reports
+
 Best Practices Implemented
 BDD approach for test writing
 Data-driven testing
@@ -171,11 +167,9 @@ Multiple payload handling approaches
 Comprehensive logging
 Detailed reporting
 Reusable components
+
 Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests.
 
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details
-
-
-This README provides a comprehensive overview of your BDD framework, including its structure, features, and usage instructions. You can customize it further based on any specific details or requirements of your implementation.
